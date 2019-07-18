@@ -9,7 +9,7 @@ export class DataService {
     constructor(public http: HttpClient) { }
 
     getProducts(): Observable<any> {
-        return this.http.get('https://a188bfde.ngrok.io/getAllCustProfile');
+        return this.http.get('https://2f3299cb.ngrok.io/getAllCustProfile');
 
     }
 

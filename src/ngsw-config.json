@@ -29,7 +29,7 @@
         {
             "name": "employee-data",
             "urls": [
-                "https://a188bfde.ngrok.io/getAllCustProfile",
+                "https://2f3299cb.ngrok.io/getAllCustProfile",
                 "http://127.0.0.1:8080/manifest.json"
             ],
             "cacheConfig": {
