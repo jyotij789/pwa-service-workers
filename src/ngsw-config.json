@@ -30,7 +30,8 @@
             "name": "employee-data",
             "urls": [
                 "https://2f3299cb.ngrok.io/getAllCustProfile",
-                "http://127.0.0.1:8080/manifest.json"
+                "http://127.0.0.1:8080/manifest.json",
+                "https://2f3299cb.ngrok.io/login"
             ],
             "cacheConfig": {
                 "strategy": "freshness",

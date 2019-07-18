@@ -12,10 +12,8 @@ export class DataService {
         return this.http.get('https://2f3299cb.ngrok.io/getAllCustProfile');
 
     }
-
-    // async getProducts(){
-    //     let data = await this.http.get('https://jsonplaceholder.typicode.com/posts');
-    //     console.log("dummy",);    
-    //     return data;
-    // }
+    setEmployee(data): Observable<any> {
+        console.log("data", data);
+        return this.http.post("https://2f3299cb.ngrok.io/login", data)
+    }
 }
