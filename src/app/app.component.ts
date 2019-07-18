@@ -24,7 +24,13 @@ export class AppComponent {
     ngOnInit() {
         this.dataService.getProducts().subscribe((data) => {
             console.log("products", data);
-            this.Products = data;
+            if (data.status_code == 200 && data.success == true) {
+                this.Products = data.customer_proile;
+
+            }
+            else {
+                alert("somthing went wrong");
+            }
         })
     }
 
